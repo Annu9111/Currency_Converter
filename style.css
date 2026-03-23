@@ -81,3 +81,17 @@ form button{
     font-size: 1.2rem;
     cursor: pointer;
 }
+
+#swap {
+  border: none;
+  background: #ff4d6d;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#swap:hover {
+  transform: rotate(180deg) scale(1.1);
+}
