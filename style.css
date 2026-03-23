@@ -19,3 +19,32 @@ body{
     min-height: 50vh;
     width: 60vh;
 }
+
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid gray;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left:0.5rem ;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
