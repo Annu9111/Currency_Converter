@@ -68,3 +68,16 @@ form input{
     padding: 0.2rem;
     width: auto;
 }
+
+.msg{
+    margin: 2rem 0 2rem 0;
+
+}
+
+form button{
+    height: 2rem;
+    background-color: rgb(247, 97, 55);
+    color: aliceblue;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
