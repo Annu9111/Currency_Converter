@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    background-color: burlywood;
+    background-color: rgb(251, 191, 135);
     padding: 2rem;
     border-radius: 1rem;
     min-height: 50vh;
