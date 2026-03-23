@@ -1,6 +1,6 @@
 const BASE_URL="https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/inr.json"
 const dropdowns=document.querySelectorAll(".dropdown select");
-
+const btn=document.querySelector("form button");
 
 for (let select of dropdowns){
     for (currCode in countryList){
@@ -27,3 +27,13 @@ const updateFlag=(element)=>{
     img.src=newSrc;
 
 }
+
+btn.addEventListener("click",(evt)=>{
+    evt.preventDefault();
+    let amount=document.querySelector(".amount input");
+    let amtVal=amount.value;
+    if (amtVal==="" || amtVal<1){
+        amtVal=1;
+        amount.value="1";
+    }
+})
